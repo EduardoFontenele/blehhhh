@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-image: url('/HD-wallpaper-hello-kitty-pattern-pattern-red-bow-cat-animal-texture-paper-white-pink.jpg');
+  background-repeat: repeat;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background-color: white;
+  color: pink;
+}
+
+.kuromi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+  color: white;
+}
+
+.kuromi img {
+  border-radius: 30px;
+  max-width: 250px;
+}
+
+.kuromi h2 {
+  background-color: rgb(85, 37, 77);
+  padding: 30px;
+}
+
+.sorry_1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sorry_1 img {
+  min-width: 300px;
+}
